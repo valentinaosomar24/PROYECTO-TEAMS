@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+
+    <head>
+        <meta charset="UTF-8"> 
+        <title>New teams</title>
+        <link rel="stylesheet" href="styleTeams.css">  
+    </head>
+
+    <body>
+        <script src="Teams.js"></script>
+        <style>
+            .imagenMenu{
+                width: 100%;
+                height: 100%;
+            }
+
+            .imagenchat{
+                width: 100%;
+                height: 100%;
+            }
+
+            .usuario{
+                width: 3%;
+                height: 3%;
+            }
+
+            .fotochat{
+                width: 50px;
+                height: 50px;  
+            }
+        </style>
+
+        <div class="cabecera">
+            <img class="logo" src="imagenes/logoTeams.jpg">
+            <label class="titulo-principal">New Teams</label>
+            <input type="checkbox">
+            <div class="botones">
+                <button class="izquierda"><</button>
+                <button class="derecha">></button>
+            </div>
+            <input class="buscador" type="text" name="search" placeholder="Search" class="src" autocomplete="off">
+            <img class="usuario" src="imagenes/usuario.jpg">
+
+       </div> 
+
+        <div class="container">
+            <!-- ESTO ES LA PARTE DE LAS OPCIONES -->
+            <div class="column menuOpciones">
+                <ul>
+                    <li><img class="imagenMenu" src="imagenes/logoactividad.png"></li>
+                    <li><img class="imagenMenu" src="imagenes/logochat.png"></li>
+                    <li><img class="imagenMenu" src="imagenes/logoequipos.png"></li>
+                    <li><img class="imagenMenu" src="imagenes/logocalendario.png"></li>
+                    <li><img class="imagenMenu" src="imagenes/logollamadas.png"></li>
+                    <br>
+                    <br>
+                    <li><img class="imagenMenu" src="imagenes/logoopciones.png"></li>
+                </ul>
+
+            </div>
+
+            <!-- ESTO ES LA PARTE DE LOS CHATS -->
+            <div class="column menuchat">
+                <div class="datoschat">
+                    <label>Chat</label>
+                    <button class="botonfiltrar"> <img class="imagenchat" src="imagenes/logofiltrar.png"> </button>
+                    <button class="botonfiltrar"> <img class="imagenchat" src="imagenes/logocamara.png"> </button>
+                    <button class="botonfiltrar"> <img class="imagenchat" src="imagenes/logonuevochat.png"> </button>
+
+                    <!-- LISTA DE LOS CHATS -->
+
+                    <ul class="chat-list">
+                        <label>Pinned</label>
+                        <li class="chat-item">
+                            <img src="https://definicion.de/wp-content/uploads/2019/07/perfil-de-usuario.png" alt="Foto de Usuario 1">
+                            <div class="chat-details">
+                                <div class="chat-name">GRUPO NOCTURNO</div>
+                                <div class="last-message">¡Hola! ¿Cómo estás?</div>
+                            </div>
+                        </li>
+                        <li class="chat-item">
+                            <img src="imagenes/chat1.png" alt="Foto de Usuario 2"><!--Imagen de perfil que quieras-->
+                            <div class="chat-details">
+                                <div class="chat-name">KEVIN ANDRES AVILA RIVEROS</div>
+                                <div class="last-message">Call of? o miedo?</div>
+                            </div>
+                        </li>
+                        <li class="chat-item">
+                            <img src="https://definicion.de/wp-content/uploads/2019/07/perfil-de-usuario.png" alt="Foto de Usuario 2"><!--Imagen de perfil que quieras-->
+                            <div class="chat-details">
+                                <div class="chat-name">MARIA</div>
+                                <div class="last-message">Ya hiciste el trabajo?</div>
+                            </div>
+                        </li>
+                        <li class="chat-item">
+                            <img src="https://definicion.de/wp-content/uploads/2019/07/perfil-de-usuario.png" alt="Foto de Usuario 2"><!--Imagen de perfil que quieras-->
+                            <div class="chat-details">
+                                <div class="chat-name">TIA ANACLETA</div>
+                                <div class="last-message">hola mamita como esta?</div>
+                            </div>
+                        </li>
+                    </ul>
+                    <ul class="chat-list">
+                        <label>Recent</label>
+                        <li class="chat-item">
+                            <img src="https://www.vhv.rs/dpng/d/480-4808522_bad-bunny-png-transparent-image-bad-bunny-transparent.png" alt="Foto de Usuario 1">
+                            <div class="chat-details">
+                                <div class="chat-name">BAD BUNNY</div>
+                                <div class="last-message">¡baby la vida es un ciclo!</div>
+                            </div>
+                        </li>
+                        <li class="chat-item">
+                            <img src="imagenes/panamiguel.jpg" alt="Foto de Usuario 2">
+                            <div class="chat-details">
+                                <div class="chat-name">EL PANA MIGUEL</div>
+                                <div class="last-message">Miau miau miau miau..</div>
+                            </div>
+                        </li>
+                        <li class="chat-item">
+                            <img src="https://www.pngkit.com/png/detail/328-3287945_anuel-aa.png" alt="Foto de Usuario 2"><!--Imagen de perfil que quieras-->
+                            <div class="chat-details">
+                                <div class="chat-name">ANUEL AA</div>
+                                <div class="last-message">brrrr extraño a Karol</div>
+                            </div>
+                        </li>
+                        <li class="chat-item">
+                            <img src="https://i.pinimg.com/originals/4c/99/26/4c992671aa279fcb6eee37462f0e470e.png" alt="Foto de Usuario 2"><!--Imagen de perfil que quieras-->
+                            <div class="chat-details">
+                                <div class="chat-name">AXEL ROSE</div>
+                                <div class="last-message">shanananana nis nis nis.</div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="nombredelchat">
+                <img class="fotochat" src="https://definicion.de/wp-content/uploads/2019/07/perfil-de-usuario.png">
+                <label> GRUPO NOCTUNO</label>
+                <button class="botonchat"> <img class="imagenchat" src="imagenes/botonchat.png"> </button>
+                <button class="botonchat"> <img class="imagenchat" src="imagenes/logoarchivo.png"> </button>
+                <button class="botonchat"> <img class="imagenchat" src="imagenes/logomas.png"> </button>
+
+                    <button class="serviciochat"> <img class="imagenchat" src="imagenes/logovideollamada.png"> </button>
+                    <button class="serviciochat"> <img class="imagenchat" src="imagenes/logollamadadelchat.png"> </button>
+                    <button class="serviciochat"> <img class="imagenchat" src="imagenes/logominimizar.png"> </button>
+
+            </div>
+            
+                <div class="column VisualisacionChat">
+                    <ul class="conversation">
+                        <li class="message user-message">
+                            <div class="message-content user">¡Hola! ¿Cómo estás?</div>
+                        </li>
+                        <li class="message other-message">
+                            <img src="https://definicion.de/wp-content/uploads/2019/07/perfil-de-usuario.png" alt="Foto de Perfil">
+                            <div class="message-content">¡Hola! Estoy bien, gracias. ¿Y tú?</div>
+                        </li>
+                        <li class="message user-message">
+                            <div class="message-content user">Bien un poco estresada, pero bien</div>
+                        </li>
+                        <li class="message other-message">
+                            <img src="https://definicion.de/wp-content/uploads/2019/07/perfil-de-usuario.png" alt="Foto de Perfil">
+                            <div class="message-content">estresada porque?</div>
+                        </li>
+                        <li class="message user-message">
+                            <div class="message-content user">Estoy intentando programar, y apenas logro un hola mundo</div>
+                        </li>
+                        <li class="message other-message">
+                            <img src="https://definicion.de/wp-content/uploads/2019/07/perfil-de-usuario.png" alt="Foto de Perfil">
+                            <div class="message-content">Es que la carrera que tomaste esta muy complicada</div>
+                        </li>
+                        <li class="message user-message">
+                            <div class="message-content user">si lo se, pero me gusta</div>
+                        </li>
+                        <li class="message other-message">
+                            <img src="https://definicion.de/wp-content/uploads/2019/07/perfil-de-usuario.png" alt="Foto de Perfil">
+                            <div class="message-content">Eso es lo importante.</div>
+                        </li>
+                        <li class="message user-message">
+                            <div class="message-content user">Ya comiste?</div>
+                        </li>
+                        <li class="message other-message">
+                            <img src="https://definicion.de/wp-content/uploads/2019/07/perfil-de-usuario.png" alt="Foto de Perfil">
+                            <div class="message-content">No tengo tiempo</div>
+                        </li>
+                    </ul>
+                </div>  
+            
+                <div class="column informacionChat">
+                    <div class="detalleGrupo">
+                        <img class="fotoinfochat" src="https://definicion.de/wp-content/uploads/2019/07/perfil-de-usuario.png">
+                        <label>GRUPO NOCTUNO</label>
+                        <button class="botoninfoeditar"> <img class="imageninfoeditar" src="imagenes/logolapiz.png"> </button>
+                    </div>
+                    <div class="infopersonas">
+                        <div class="encabezadoinfoP">
+                            <label>People (3)</label>
+                            <label class="seeall">see all</label>
+                        </div>                 
+                        <div class="imagenesPersonas">
+                            <img class="imagenpersona agregarPersona" src="imagenes/logoagregarpersona.png">
+                            <img class="imagenpersona ftoP" src="imagenes/chat1.png">
+                            <img class="imagenpersona ftoP" src="https://definicion.de/wp-content/uploads/2019/07/perfil-de-usuario.png">
+                            <img class="imagenpersona ftoP" src="https://definicion.de/wp-content/uploads/2019/07/perfil-de-usuario.png">
+                        </div>
+                    </div>
+                    <div class="OpcionesInfoChat">
+                        <label>Options</label>
+                        <ul class="opcionesInfo">
+                            <li>
+                                <img class="ImagenOpciones" src="imagenes/logoCampana.png">
+                                <label>Mute</label>
+                            </li>
+                            <li>
+                                <img class="ImagenOpciones" src="imagenes/logoCopiar.png">
+                                <label>Copy link to Chat</label>
+                            </li>
+                            <li>
+                                <img class="ImagenOpciones" src="imagenes/logoManageapp.png">
+                                <label>Manage App</label>
+                            </li>
+                            <li>
+                                <img class="ImagenOpciones" src="imagenes/logoleave.png">
+                                <label>Leave</label>
+                            </li>
+                        </ul>
+                    </div>
+
+                </div>        
+            </div>
+        </div>
+        </div>
+    </body>  
+</html>

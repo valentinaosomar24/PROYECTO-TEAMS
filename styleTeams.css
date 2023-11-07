@@ -1,0 +1,363 @@
+body{
+    margin:0;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",system-ui,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Web",sans-serif;
+}
+
+
+.cabecera{
+    display:flex;
+    /* width: 100%; */
+    padding: 6px;
+    align-items: center;
+    background-color: #444791;
+    border-bottom: 1px solid #ccc;
+}
+
+.logo{
+  width: 40px;
+  margin-left: 5px;
+}
+
+.titulo-principal{
+    color:white;
+    text-align: center;
+    font-weight: 600;
+    padding-left: 1%;
+    padding-right: 1%;
+}
+
+
+.botones .izquierda{
+  background-color: transparent;
+  color:white;
+}
+
+.botones .derecha{
+  background-color: transparent;
+  color:white;
+}
+
+.cabecera .botones{
+  position: relative;
+  left: 14%;
+}
+
+.buscador{
+    position: relative;
+    left:15%;
+    width: 25%;
+}
+
+.cabecera .usuario{
+  position: relative;
+  border-radius: 50%;
+  left: 53%;
+}
+
+.name{
+    text-align: center;
+}
+
+input.src{
+    /*padding: 0px 0px 0px 200px;*/
+    width: 15rem;
+    overflow: none;
+    
+}
+
+.container {
+    display: flex;
+  }
+  
+  .column {
+    /* padding: 2px; */
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+  }
+
+  ul{
+    list-style-type: none;
+    padding: 0px;
+    margin: 0%;
+  }
+
+  .imagenMenu{
+    width: 90px;
+  }
+
+  .menuOpciones{
+    width: 7%;
+    height: 100%;
+    min-height: 100vh;
+    background-color: #ebebeb;
+    /* padding: 5px; */
+  }
+  
+  .menuchat{
+    width: 35%;
+    background-color: #ebebeb;
+    padding-left: 0%;
+    padding-right: 0%;
+  }
+
+  .menuchat .datoschat{
+    border-bottom: 1px solid #ccc;
+    height: 55px;
+  }
+
+  .datoschat button{
+    width: 30px;
+    height: 30px;
+  }
+
+  .datoschat .botonfiltrar{
+    position: relative;
+    left: 46%;
+    margin-top: 4%;
+    border: none;
+  }
+
+  .datoschat label{
+    padding-left: 7%;
+    font-weight: 700;
+  }
+
+  .nombredelchat{
+    display: flex;
+    align-items: center !important;
+    position: absolute;
+    border-bottom: 1px solid #ccc;
+    height: 56px;
+    width: 70.3%;
+    margin-left: 29.6%;
+    background-color: #f0f0f0;
+  }
+
+  .nombredelchat .fotochat{
+    position: relative;
+    border-radius: 50%;
+    margin-top: 5px;
+    margin-left: 20px;
+  }
+
+  .nombredelchat label{
+    padding-left: 1%;
+    font-weight: 700;
+    /* position: absolute;
+    margin-top: 20px; */
+  }
+
+  .botonchat button{
+    width: 30px;
+    height: 30px;
+  }
+  
+  .nombredelchat .botonchat{
+    /* position: relative;
+    left: 27%; */
+    border: none;
+   
+  }
+
+  .nombredelchat .serviciochat{
+    position: relative;
+    left: 30%;
+    border: none;
+  
+  }
+
+  .VisualisacionChat{
+    width: 68%;
+  }
+
+  .conversation {
+    list-style-type: none;
+    padding: 0;
+    margin-top: 70px;
+
+  }
+ 
+  .message {
+    display: flex;
+    align-items: flex-start;
+    margin: 10px;
+  }
+
+  .user-message {
+        display: flex;
+    justify-content: end;
+  }
+
+  .other-message {
+    align-self: flex-start;
+  }
+
+  .message-content {
+    max-width: 70%;
+    padding: 10px;
+    border-radius: 15px;
+    background-color: #ffffff;
+    word-wrap: break-word;
+  }
+
+  .message img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+  }
+
+  .user{
+    background-color: #E8EBFA;
+  }
+
+  /*ESTILOS DEL CONTACTOS DE CHAT*/
+  .chat-list {
+    list-style-type: none;
+    padding: 0;
+    margin-top: 20px;
+  }
+
+  .chat-list label{
+    margin: 1px;
+  }
+/*estilos de cada uno de los chats*/
+  .chat-item {
+    font-size: 13px;
+    display: flex;
+    align-items: center;
+    padding: 6px;        
+    border-bottom: 1px solid #c2c2c2
+  } 
+
+/*imagen del chat*/
+  .chat-item img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+  }
+
+  .chat-details {
+    flex: 1;
+  }
+
+    /*le pone negrilla al nombre del chat*/
+  .chat-name {
+    font-weight: bold;
+  }
+
+    /*color de ultimo mensaje enviado*/
+  .last-message {
+    color: #878787;
+  }
+  
+  .informacionChat{
+    width: 32%;
+    padding: 15px;
+  }
+
+
+  /*Detalle Grupo*/
+
+  .detalleGrupo{
+    margin-top: 70px;
+    display: flex;
+    align-items: center;
+  }
+
+  .detalleGrupo label{
+    font-weight: 700;
+    margin-left: 10px;
+  }
+
+  .botoninfoeditar{
+    margin-left: 10px;
+    width: 30px;
+    height: 20px;
+    border: none;
+    background: transparent;
+  }
+
+  .imageninfoeditar{
+    width: 15px;
+    height: 15px;
+  }
+
+  .fotoinfochat{
+    width: 80px;
+    border-radius: 50%;
+  }
+
+  .infopersonas{
+    margin-top: 40px;
+  }
+
+  .encabezadoinfoP{
+    display: flex;
+  }
+
+  .infopersonas .encabezadoinfoP label{
+    font-weight: 700;
+  }
+
+  .infopersonas .encabezadoinfoP .seeall{
+    color: #878787;
+    padding-left: 8rem;
+  }
+
+  .imagenesPersonas{
+    margin-left: 10px ;
+    margin-top: 15px;
+    display: flex;
+  }
+
+  .agregarPersona{
+    border: 1px solid #878787;
+  }
+
+  .imagenpersona{
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+  }
+
+  .imagenesPersonas .ftoP{
+    margin-left: 5px;
+  }
+
+  .OpcionesInfoChat{
+    margin-top: 40px;
+  }
+  
+  .OpcionesInfoChat label{
+    font-weight: 700;
+  }
+
+  .opcionesInfo{
+    margin-top: 15px;
+    margin-left: 10px ;
+  }
+
+  .opcionesInfo li{
+    align-items: center;
+    display: flex;
+    margin-bottom: 15px;
+  }
+
+  .opcionesInfo label{
+    font-weight: 100;
+    margin-left: 10px;
+  }
+
+  .opcionesInfo .ImagenOpciones{
+    width: 25px;
+    height: 25px;  
+  }
+
+
+  
+  
+  
+  
+  
